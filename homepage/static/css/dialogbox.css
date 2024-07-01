@@ -11,7 +11,7 @@
 #dialogbox{
 	display: none;
 	position: fixed;
-	background:  #ff3c16 ;
+	background:  #17BBD1 ;
     border-radius: 7px;
 	width: 550px;
 	z-index: 10;
@@ -25,7 +25,7 @@
     background: #000; 
     font-size: 1.8rem; 
     padding: 10px; 
-    color: #ff3c16 ;
+    color: #17BBD1 ;
     font-weight: bold; 
     border-radius: 7px;
 }

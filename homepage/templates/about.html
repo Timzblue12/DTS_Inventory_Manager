@@ -8,23 +8,22 @@
     
     {% if not user.is_authenticated  %}
         <br>
-        <a href="{% url 'home' %}" class="btn ghost-button">Go Back</a>
+        <a href="{% url 'home' %}" class="btn ghost-button">Back</a>
     {% endif %}    
     
-    <div class="align-middle" style="color: #ea2088; font-style: bold; font-size: 3rem;">Invi</div>
-    <div class="align-middle" style="color: #fff">An Inventory Management System</div>
+    <div class="align-middle" style="color: #17BBD1; font-style: bold; font-size: 3rem;">DTS Manager</div>
+    <div class="align-middle" style="color: #0d8d96">A Store Inventory System</div>
     <br><br>
 
     <div class="align-middle"> 
-        <h2 style="color:#ea2088">| About |</h3> <br>
+        <h2 style="color:#17BBD1">| About |</h3> <br>
             <p>
-                Invi is a simple inventory management software created for the requirements of a company.
-                The software is capable of keeping track of incoming and outgoing stock with a dynamically rendered bill. 
-                Each supplier is provided with a profile where they can see the history of their transactions with the company.
+                DTS Manager is a Store inventory management system.
+                This system is designed to manage inventory effectively by tracking both incoming and outgoing stock.
             </p>
         <br>
     </div>
-        <h2 style="color:#ea2088" class="align-middle">| Features |</h3> <br>
+        <h2 style="color:#17BBD1" class="align-middle">| Features |</h3> <br>
             <ul style="display:table; margin:0 auto;">                
                 <li>Interactive Chart to display current available stock</li>
                 <li>Stock details like current available stock are maintained</li>
@@ -35,10 +34,6 @@
                 <li>Separate profiles are maintained for suppliers</li>
             </ul>  
         <br>
-    <div class="align-middle">
-        <h2 style="color:#ea2088" >| Developer |</h3> <br>
-            <a target="_blank" href="https://github.com/akashroshan135" >Akash Roshan</a>
-            <br><br><br>
     </div>
 
 {% endblock content %}

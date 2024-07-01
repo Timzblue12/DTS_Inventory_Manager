@@ -19,15 +19,15 @@
 body,
 html {
   height: 100%;
-  background-color: #ffffff;
+  background-color: #efefef;
 }
 
 .form-group{
-  color:white;
+  color: black;
 }
 
 label{
-  color: white;
+  color: #0d8d96;
   font-size: 2rem;
 }
 
@@ -37,15 +37,15 @@ label{
 
 .breadcrumb{
   background-color: #000080;
-  color:#ff9df0;
+  color:#0D8D9E;
 }
 
 p{
-  color:white;   /* For About */
+  color:#0d8d96;   /* For About */
 }
 
 a{
-  color:#FF9DF0;
+  color:#0D8D9E;
 }
 
 ol li a{
@@ -53,7 +53,7 @@ ol li a{
 }
 
 ol,li,a:hover{
-  color:white ;
+  color:#ffffff ;
 }
 
 .navbar-collapse > .navbar-nav { 
@@ -78,10 +78,10 @@ ol,li,a:hover{
   margin-top: -30px;
   background: black;
   z-index:1010;
-  -webkit-filter: blur(20px);
-  -moz-filter: blur(20px);
-  -o-filter: blur(20px);
-  -ms-filter: blur(20px);
+  -webkit-filter: blur(10px);
+  -moz-filter: blur(10px);
+  -o-filter: blur(10px);
+  -ms-filter: blur(10px);
   filter: blur(10px);
 }
 
@@ -173,7 +173,7 @@ ul {
 }
 
 .dropdown-item:hover{
-  background-color:white;
+  background-color:rgb(255, 208, 139);
   color: #000080;
 }
 
@@ -184,7 +184,7 @@ ul {
 .content-section {
   background: transparent;
   box-shadow: 0 4px 10px #000080;
-  color:white;
+  color: black;
   padding: 10px 20px;
   border: 1px solid #dddddd;
   border-radius: 3px;
@@ -258,39 +258,39 @@ html { width: 100%; height:100%; overflow:hidden; }
 }
 
 .textinput{
-  background-color: #4F102B;
+  background-color: #0D8D9E;
   color: white;
 }
 
 .textinput:disabled{
-  background-color: rgb(158, 27, 84);
+  background-color: #0D8D9E;
   color: white;
 }
 
 .putprice {
-  background-color: #9e1b54 !important;
+  background-color: #0D8D9E !important;
   color: white;
 }
 
 .emailinput{
-  background-color: #4F102B;
+  background-color: #0D8D9E;
   color: white;
 }
 
 .emailinput.focus{
-  background-color: #4F102B;
+  background-color: #0D8D9E;
   color: white;
 }
 
 .textinput:focus{
-  background-color:#4F102B;
+  background-color:#0D8D9E;
   color: white;
 }
 
 .ghost-button {
-  color: rgb(255, 255, 255);
-  background-color: transparent;
-  border: 2px solid rgb(255, 255, 255);
+  color: #0d8d96;
+  background-color: #ffffff;
+  border: 2px solid #0d8d96;
   font-size: 17px;
   padding: 7px 12px;
   font-weight: bolder;
@@ -416,7 +416,7 @@ html { width: 100%; height:100%; overflow:hidden; }
 
 .btn-pink:hover{
   color:#fff;
-  background-color:#f03d99;
+  background-color:#0D8D9E;
   border-color:#000080;
 }
 
